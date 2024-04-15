@@ -3,72 +3,72 @@
 }
 
 .destination-fl-ad-heading {
-    position: relative;
-    display: flex;
+    position       : relative;
+    display        : flex;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
 
     img {
-        width: 60px;
-        object-fit: cover;
-        opacity: 0.05;
-        position: absolute;
-        z-index: -1;
+        width        : 60px;
+        object-fit   : cover;
+        opacity      : 0.05;
+        position     : absolute;
+        z-index      : -1;
         border-bottom: 4px solid #ffc107;
     }
 
     h2 {
-        font-size: 22px;
+        font-size  : 22px;
         font-weight: 700;
-        position: relative;
+        position   : relative;
 
         &::after {
-            position: absolute;
-            content: "";
-            height: 4px;
-            width: 60px;
+            position        : absolute;
+            content         : "";
+            height          : 4px;
+            width           : 60px;
             background-color: #ffc107;
-            left: 63px;
-            bottom: -28px;
+            left            : 63px;
+            bottom          : -28px;
 
             .form-content {
                 position: absolute;
-                z-index: 2;
-                padding: 50px 0;
+                z-index : 2;
+                padding : 50px 0;
 
                 .header-content {
-                    margin-bottom: 30px;
-                    text-align: center;
-                    color: #ffc107;
-                    font-size: 25px;
-                    font-weight: 700;
+                    margin-bottom : 30px;
+                    text-align    : center;
+                    color         : #ffc107;
+                    font-size     : 25px;
+                    font-weight   : 700;
                     text-transform: uppercase;
                 }
 
                 .sub-title {
-                    text-align: center;
-                    max-width: 65%;
-                    margin: 0 auto 30px;
-                    font-weight: 400;
-                    font-size: 16px;
-                    color: #fff;
+                    text-align   : center;
+                    max-width    : 65%;
+                    margin       : 0 auto 30px;
+                    font-weight  : 400;
+                    font-size    : 16px;
+                    color        : #fff;
                     margin-bottom: 80px;
                 }
 
                 img {
-                    width: 200px;
+                    width : 200px;
                     margin: 20px 0;
                 }
 
                 button {
-                    width: 50%;
-                    padding: 5px 10px;
-                    margin-left: 25%;
-                    margin-right: 25%;
-                    border: none;
-                    border-radius: 5px;
-                    font-size: 800;
-                    color: #ebeced;
+                    width         : 50%;
+                    padding       : 5px 10px;
+                    margin-left   : 25%;
+                    margin-right  : 25%;
+                    border        : none;
+                    border-radius : 5px;
+                    font-size     : 800;
+                    color         : #ebeced;
                     text-transform: uppercase;
 
                     &:hover {
@@ -81,37 +81,37 @@
 }
 
 .destination-fl-ad-body {
-    display: flex;
+    display        : flex;
     justify-content: space-between;
-    padding: 0 100px;
-    padding-top: 50px;
+    padding        : 0 100px;
+    padding-top    : 50px;
 
 
     a {
         position: relative;
-        width: 23%;
-        height: 185px;
+        width   : 23%;
+        height  : 185px;
 
         img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            width        : 100%;
+            height       : 100%;
+            object-fit   : cover;
             border-radius: 1px;
-            filter: brightness(70%);
+            filter       : brightness(70%);
         }
 
         h3 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: 0;
-            display: flex;
+            position       : absolute;
+            top            : 0;
+            left           : 0;
+            right          : 0;
+            bottom         : 0;
+            margin         : 0;
+            display        : flex;
             justify-content: center;
-            align-items: center;
-            color: #fff;
-            z-index: 10;
+            align-items    : center;
+            color          : #fff;
+            z-index        : 10;
         }
     }
 }

@@ -1,0 +1,28 @@
+.form-home-wp {
+    background-image   : url("https://motogo.vn/wp-content/themes/motogo/images/MOTOGO-cho-thue-xe-may-Ha-Noi.jpg");
+    height             : 100vh;
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    position           : relative;
+
+    .wp-form-home {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        height         : 100%;
+        position       : relative;
+        z-index        : 999;
+        color          : #fff;
+
+        .form-wp-right {
+            background-color: #333;
+            padding         : 20px 30px;
+            border-radius   : 10px;
+
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+}

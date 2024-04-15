@@ -1,0 +1,172 @@
+.bg-cate-cars{
+    background-color: #495057;
+    width: 100%;
+    height: 1000px;
+    .form-cate-cars {
+        position: relative;
+
+        .form-logo{
+            width: 70px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            z-index: 1;
+            padding: 5px;
+            border-bottom: 5px solid #ffc107;
+
+            img{
+                width: 100%;
+                opacity: 0.1;
+                margin-top: 30px;
+
+
+            }
+        }
+        .form-content{
+            position: absolute;
+            z-index: 2;
+            padding: 50px 0;
+
+            .header-content{
+                margin-bottom: 30px;
+                text-align: center ;
+                color:#ffc107;
+                font-size: 25px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            .sub-title{
+                text-align: center;
+                max-width: 65%;
+                margin: 0 auto 30px;
+                font-weight:400;
+                font-size: 16px;
+                color: #fff;
+                margin-bottom: 80px;
+            }
+
+            .list-cars{
+
+                .form-item{
+                    padding: 20px 20px;
+                    background-color: #ebeced;
+                    border: 20px solid #495057;
+                    /* border-left: 20px solid #495057; */
+                    border-radius: 25px;
+
+                    &:hover{
+
+                        animation: changeBackground 0.3s linear forwards;
+
+                        .price-car{
+                            color: #fff !important;
+                        }
+
+                        button{
+                            background-color: #000;
+                        }
+                    }
+
+                    .name-car{
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+
+                    .price-car{
+                        color: #ffc107;
+
+                        span{
+                            font-size: 40px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .list-info{
+                        ul{
+                            padding: 0;
+                            li{
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+
+                    img{
+                        width: 200px;
+                        margin: 20px 0;
+                    }
+
+                    button{
+                        width: 50%;
+                        padding: 5px 10px;
+                        margin-left: 25%;
+                        margin-right: 25%;
+                        border: none;
+                        border-radius: 5px;
+                        font-size: 800;
+                        color: #ebeced;
+                        text-transform: uppercase;
+
+                        &:hover{
+                            animation: hoverButton 0.2s linear forwards;
+                        }
+                    }
+                }
+            }
+
+            .form-table-booking{
+                width: 100%;
+                p{
+                    text-align: center;
+                    color: #fff;
+                }
+
+                .navigate-booking{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    button{
+                        padding: 8px 20px;
+                        border: none;
+                        border-radius: 5px;
+                        background-color: #ffc107;
+
+                        &:hover{
+                            cursor: pointer;
+                            transform: scale(1.1);
+                            opacity: 0.7;
+                        }
+                    }
+
+                    .divider{
+                        width: 30%;
+                        height: 1px;
+                        background-color: #ebeced;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes changeBackground {
+    0%{
+        background-color: #ebeced;
+    }
+    100%{
+        background-color: rgba(255,193,7,.75);
+
+    }
+}
+
+@keyframes hoverButton{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+}
