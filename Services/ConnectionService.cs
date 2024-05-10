@@ -7,7 +7,7 @@ public class ConnectionService
 
     public ConnectionService()
     {
-        string connectionString = "server=(local);database=manage-rent-bikee;Integrated Security=True";
+        string connectionString = "server=(local);database=manage-rent-bike;Integrated Security=True";
 
         try
         {
